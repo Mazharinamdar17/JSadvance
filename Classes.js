@@ -53,3 +53,7 @@ color = undefined (since no color is provided)
 
 /*Calls the area() method on rect, which returns: */
 
+const map = new Map();
+map.set('name', 'Alice');
+map.set('age', 30);
+console.log(map.get('name'));
